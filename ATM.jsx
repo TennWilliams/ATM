@@ -32,7 +32,7 @@ const Account = () => {
       //alert(`You deposited $${deposit}.`)
     }
     else if (deposit > totalState) {
-      alert(`You do not have enough money to withdraw $${deposit}.  Your Account Balance is $${totalState} Try a lower amount.`);
+      alert(`You do not have enough money to withdraw $${deposit}.  Your Account Balance is $${totalState} Try a different amount.`);
     }
     else {
       let newTotal = totalState - deposit;
